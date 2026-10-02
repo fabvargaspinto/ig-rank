@@ -1,11 +1,8 @@
--- Schema completo de Sello Nómada.
--- Las migraciones en supabase/migrations/ quedan como historial.
--- Este archivo es la definición de una base nueva.
-
--- DROP TABLE IF EXISTS public.posts CASCADE;
--- DROP TABLE IF EXISTS public.user_links CASCADE;
--- DROP TABLE IF EXISTS public.auth CASCADE;
--- DROP TABLE IF EXISTS public.users CASCADE;
+-- Referencia del esquema público de Sello Nómada.
+-- La fuente de verdad son las migraciones en supabase/migrations/.
+-- No ejecutar este archivo contra una base existente: no incluye DROP,
+-- pero tampoco es un proceso de migración. Usá `supabase db reset` o
+-- `supabase db push`.
 
 CREATE TABLE public.users (
     id UUID PRIMARY KEY,
