@@ -1046,7 +1046,7 @@ Archivo: [`.github/workflows/ci.yml`](../.github/workflows/ci.yml).
 - Limpiar historial git del `.pnpm-store` versionado (`git filter-repo`); coordinar con otros clones.
 - `.env.example` ya aclara que Google OAuth no va en la app; no hay `SPOTIFY_*` en el example.
 
-### Limpiar cahce de git con claves privadas
+### Limpiar cahce de git con claves privad
 
 ---
 
